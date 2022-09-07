@@ -8,6 +8,6 @@ export const images = [
         img: salon},
     {
         title: 'Barra', 
-        subtitle: 'Esta es la barra', 
+        subtitle: 'Esta es la barra',
         img: barra},
 ];
