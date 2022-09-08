@@ -4,7 +4,6 @@ import { images } from './CarouselData';
 import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 
 
-
 export default function Carousel() {
 
     const [currImg, setCurrImg] = useState(0)
@@ -12,6 +11,7 @@ export default function Carousel() {
   return (
     <div className='carousel'>
       <div className='carouselInner' style={{backgroundImage: `url(${images[currImg].img})`}}>
+      
 
       <div className='left' onClick={() => {
         currImg > 0 ? setCurrImg(currImg - 1) : setCurrImg(images.length - 1)

@@ -85,6 +85,7 @@
 
     .nav-menu.active {
         left: 0;
+        margin-top: 0;
     }
 
     .nav-item {
