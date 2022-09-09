@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Carousel from './componentes/Carousel';
-import Navbar from './componentes/Navbar.jsx'
+import Galeria from './componentes/Galeria';
+import Navbar from './componentes/Navbar.jsx';
+
 
 function App() {
   return (
@@ -11,105 +12,9 @@ function App() {
       <Navbar />
       </div>
 
-      <div className='Container-crs'>
-      <Carousel />
-      </div>
+      <Galeria />
 
-      <div className='black'>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-        <p>hola</p>
-      </div>
+
 
     </div>
   );
