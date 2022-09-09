@@ -10,9 +10,12 @@ function MyComponent() {
 };
 
 const center = {
-  lat: 40.55747914217795, 
-  lng: -3.644809376466913
-};
+  lat: 40.55742746590223, 
+  lng: -3.660167806103882
+}
+
+  }
+
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyDhnNN-xsOhBmJ2-MnDhyiOOn-l91Sf440"
@@ -41,7 +44,8 @@ const center = {
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
-  ) : <></>
-}
+)  <></>
+
+  
 
 export default React.memo(MyComponent)
