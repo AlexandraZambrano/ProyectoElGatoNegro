@@ -1,12 +1,13 @@
 import React from "react";
-import { render } from "react-dom";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { TextField } from "material-ui-formik-components/TextField";
 import { Select } from "material-ui-formik-components/Select";
 import "../hojas-de-estilo/RegistrationForm.css";
-//import * as Yup from "yup";
-import DatePicker from "./DatePicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Datetime from "react-datetime";
+// Ojo Alex Hay que instalar npm install react-datetime
+
+
 
 class RegistrationForm extends React.Component {
   render() {
@@ -19,14 +20,13 @@ class RegistrationForm extends React.Component {
               nombre: "",
               telefono: "",
               asistentes: "1",
-              date: ""
+              time: ""
             }}
             onSubmit={(values) => {
               alert(
                 `Nombre: ${values.nombre}\nTeléfono: ${
                   values.telefono
-                }\nAsistentes: ${values.asistentes}
-                \nFecha: ${values.date}`
+                }\nAsistentes: ${values.asistentes}\nFecha: ${values.time}`
               );
             }}
 
@@ -52,15 +52,9 @@ class RegistrationForm extends React.Component {
             }
             return errores;  
             
-            // Validación fecha
-            if (!valores.date){
-              errores.asistentes = 'Ingresa el día de la reserva';
-            }
-            return errores;  
-
           }}
           >
-          {( { errors } ) => (
+          {( { errors, setFieldValue } ) => (
             <Form> 
               <Field name="nombre" 
                 label="Fenix, Bruja, Mago..." 
@@ -98,8 +92,16 @@ class RegistrationForm extends React.Component {
                   <div className="error">{errors.asistentes}</div>
                 )} />
               <br />
-
-              <DatePicker name="date" />
+              
+              <Field
+                name="time"
+                render={({field,form:{isSubmitting}})=>(
+                  <Datetime onChange={time=>{setFieldValue('time',time.format('DD-MM-YYYY HH:MM'))}}/>
+                )}
+              />
+              <div className="etique">
+                <label className="etiqueta1">¿Qué escalofriante noche escogerás?</label>
+              </div>
               <br />
               <br />
               <button className="boton-form" type="submit">RESERVAR</button>
