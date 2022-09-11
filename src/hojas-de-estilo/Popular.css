@@ -1,0 +1,40 @@
+.populares{
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tarjeta{
+	padding:10px; 
+	width:350px;
+	height: 350px;
+	margin:0;
+	position: relative;
+
+	
+}
+.tarjeta img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	display: block;
+}
+.tarjeta > h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: #d7ff00;
+  text-shadow: 0px 0px 7px #2603fb;
+}
+.tarjeta>h3:hover {
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    transition-duration: 0.3s;
+    text-shadow: 0px 0px 4px #d7ff00;
+}
+
+
