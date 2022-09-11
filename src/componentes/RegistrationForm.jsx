@@ -1,16 +1,15 @@
-import React from "react";
+import React, {Component} from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { TextField } from "material-ui-formik-components/TextField";
 import { Select } from "material-ui-formik-components/Select";
 import "../hojas-de-estilo/RegistrationForm.css";
-import "react-datepicker/dist/react-datepicker.css";
 import Datetime from "react-datetime";
-// Ojo Alex Hay que instalar npm install react-datetime
+import ReCAPTCHA from "react-google-recaptcha";
 
-
-
-class RegistrationForm extends React.Component {
+class RegistrationForm extends Component {
+  
   render() {
+
     return (
       <div className="container-formulario">
         <h2 className="titulo-formulario">Contáctanos</h2>
@@ -20,13 +19,14 @@ class RegistrationForm extends React.Component {
               nombre: "",
               telefono: "",
               asistentes: "1",
-              time: ""
+              time: "",
+              recaptcha: ""
             }}
             onSubmit={(values) => {
               alert(
                 `Nombre: ${values.nombre}\nTeléfono: ${
                   values.telefono
-                }\nAsistentes: ${values.asistentes}\nFecha: ${values.time}`
+                }\nAsistentes: ${values.asistentes}\nFecha: ${values.time}\nRecaptcha: ${values.recaptcha}`
               );
             }}
 
@@ -49,6 +49,11 @@ class RegistrationForm extends React.Component {
             // Validación asistentes
             if (!valores.asistentes){
               errores.asistentes = 'Ingresa el número de víctimas';
+            }
+
+            // Validación fecha
+            if (!valores.time){
+              errores.time = 'Ingresa una fecha'; 
             }
             return errores;  
             
@@ -88,19 +93,34 @@ class RegistrationForm extends React.Component {
               />
 
               <div className="etiqueta">Número de víctimas</div>
-                <ErrorMessage name="asistentes" component={() => (
-                  <div className="error">{errors.asistentes}</div>
-                )} />
+              <ErrorMessage name="asistentes" component={() => (
+                <div className="error">{errors.asistentes}</div>
+              )} />
               <br />
               
               <Field
                 name="time"
                 render={({field,form:{isSubmitting}})=>(
-                  <Datetime onChange={time=>{setFieldValue('time',time.format('DD-MM-YYYY HH:MM'))}}/>
+                  <Datetime onChange={time=>{setFieldValue('time',time.format('DD-MM-YYYY HH:MM'))}}/> 
                 )}
               />
+              <ErrorMessage name="time" component={() => (
+                <div className="error">{errors.time}</div>
+              )} />
+
+              <br />
               <div className="etique">
                 <label className="etiqueta1">¿Qué escalofriante noche escogerás?</label>
+              </div>
+              <br />
+              <br />
+
+              <div className="recaptcha">
+                <ReCAPTCHA 
+                  sitekey="6Ldi5ewhAAAAAOCHNPwoOpqWhm8vYFr7UpDezrTP"
+                  component={Boolean}
+                  onChange={true}
+                />  
               </div>
               <br />
               <br />
