@@ -12,7 +12,7 @@ export default function Carousel(props) {
 
           <div className='left' onClick={() => {
           currImg > 0 ? setCurrImg(currImg - 1) : setCurrImg(props.fotos.length - 1)}}>
-          < FaAngleLeft />
+          < FaAngleLeft className='icon'/>
           </div>
 
           <div className='center'>
@@ -22,7 +22,7 @@ export default function Carousel(props) {
 
           <div className='right' onClick={() => {
           currImg < props.fotos.length - 1 ? setCurrImg(currImg + 1) : setCurrImg(0)}}>
-          <FaAngleRight />
+          <FaAngleRight className='icon'/>
           </div>
 
         </div>
