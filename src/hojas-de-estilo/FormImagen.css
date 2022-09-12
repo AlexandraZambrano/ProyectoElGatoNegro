@@ -1,9 +1,6 @@
 .FormF{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-img{
-    margin-right: 200px;
+    margin-left: 100px;
 }

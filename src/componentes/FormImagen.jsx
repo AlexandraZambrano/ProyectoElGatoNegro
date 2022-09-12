@@ -1,7 +1,7 @@
 import React from 'react';
-import gatoFormulario from '../assets/img/gatoFormulario.png';
+import gatoFormulario from '../media/gatoFormulario.png';
 import FormMasters from './FormMasters';
-import '../assets/hojas-de-estilo/FormImagen.css';
+import '../hojas-de-estilo/FormImagen.css';
 
 function FormImagen() {
     return (

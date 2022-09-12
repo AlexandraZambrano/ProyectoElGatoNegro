@@ -12,6 +12,7 @@ body {
 }
 .MuiCard-root {
 	background: #6006FF!important;
+	padding: 20px;
 } 
 
 contenedor {

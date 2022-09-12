@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import "../assets/hojas-de-estilo/FormMasters.css";
+import "../hojas-de-estilo/FormMasters.css";
 import { Formik} from 'formik';
 import { Card, CardContent, TextField } from "@material-ui/core";
 import { ClassNames } from '@emotion/react';
