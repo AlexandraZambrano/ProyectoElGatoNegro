@@ -7,11 +7,11 @@
 	justify-content: center;	 
 	font-family: 'Century-gothic', serif; 
 }
-.tarjeta{
+.tar{
 	margin:5px; 
 }
 
-.tarjeta:hover .fig {
+.tar:hover .fig {
 	-webkit-transform: perspective(600px) rotateY(180deg);
 	-ms-transform: perspective(600px) rotateY(180deg);
 	-o-transform: perspective(600px) rotateY(180deg);

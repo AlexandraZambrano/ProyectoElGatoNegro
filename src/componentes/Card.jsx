@@ -10,7 +10,7 @@ import Cards from '../json/data.json';
 			{
 				 Cards.map(card=>{
 					return(
-							<div className="tarjeta" >
+							<div className="tar" >
 								<figure className='fig' key={card.id}>
 								<img src={(`${process.env.PUBLIC_URL}../imagenes/${card.imagen}`)}
 									className='frontal' 

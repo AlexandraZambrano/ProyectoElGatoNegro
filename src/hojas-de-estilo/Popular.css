@@ -1,25 +1,25 @@
 .populares{
+	width:800px;
+	height: 750px;
+	padding-top: 10px;
 	margin: 10px auto;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
+	align-items:  center;
 }
 
 .tarjeta{
-	padding:10px; 
+	padding:15px; 
 	width:350px;
 	height: 350px;
-	margin:0;
+	padding-top: 0;
 	position: relative;
-
-	
 }
 .tarjeta img{
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
-	display: block;
+
 }
 .tarjeta > h3 {
   position: absolute;

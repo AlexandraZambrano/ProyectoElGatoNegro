@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+            "nombre": "Vino de los muertos",
+            "descripcion": "Comunicate con el más allá",
+            "ingredientes": "Lianas de bejuco, uvas de playa, bayas de goji, espumante.",
+            "precio": "Precio 15 €",
+            "imagen": "4.png"    
+    },
+    {
+        "id": "2",
+            "nombre": "Tónico Celestial",
+            "descripcion": "Subirás a los cielos",
+            "ingredientes": "Ron, zumo de toronja, miel y lágrimas de ángel",
+            "precio": "Precio 10€",
+            "imagen": "5.png"       
+    },
+    {
+        "id": "3",
+            "nombre": "Canto de Sirena",
+            "descripcion": "Nadie escapará de tí",
+            "ingredientes": "Tequila, fruta de la pasión, y dos lágrimas de sirena",
+            "precio": "Precio 13€",
+            "imagen": "8.png"   
+    },
+    {
+        "id": "4",
+            "nombre": " Absenta",
+            "descripcion": "(Bebida por la que Van Gogh se cortó la oreja)",
+            "ingredientes": "Contiene: Ajenjo, hinojo y anís..  ",
+            "precio": "Precio: 10 €",
+            "imagen": "12.png"      
+    }
+
+]
