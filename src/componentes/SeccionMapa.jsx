@@ -8,7 +8,9 @@ function SeccionMapa() {
     return(
     <div className='LogoMapa'>
         <img src={Logo} alt="Logo"/>
+        <div className='mapa'>
         <Maps />
+        </div>
     </div>
     );
 }

@@ -1,0 +1,17 @@
+.LogoMapa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+}
+
+img{
+    width: 39%;
+}
+
+.mapa{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
