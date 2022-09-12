@@ -11,7 +11,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .MuiCard-root {
-	background: purple !important;
+	background: #6006FF!important;
 } 
 
 contenedor {
@@ -46,7 +46,7 @@ textField {
 .formulario {
 	padding: 30px;
 	border-radius: 5px;
-	background: rgb(245, 243, 244);
+	/* background: rgb(129, 15, 205); */
 	box-shadow:0 42px 80px rgba(0, 0, 0, 0.07);
 	display: flex;
 	flex-direction: column;
@@ -64,7 +64,8 @@ textField {
 	outline: none;
 	border-radius: 3px;
 	transition: .3s ease all;
-	color: #fafafa;
+	color: #000;
+	
 
 }
 
@@ -80,7 +81,8 @@ textField {
 .formulario .recaptcha {
 	margin-top: 30px;
 	margin-bottom: 20px;
-	margin-left: 50px;
+	display: flex;
+	justify-content: center;
 }
 
 .contenedor-button {
@@ -167,3 +169,13 @@ label {
 	margin-top: -1px;
 	font-weight: bold;
 }
+
+
+select{
+	display: flex;
+	margin-top: 10px;
+	width: 90px;
+	padding: 6px;
+}
+
+

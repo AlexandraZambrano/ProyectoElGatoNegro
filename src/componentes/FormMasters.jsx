@@ -1,10 +1,9 @@
 import React, {useRef, useState} from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import "../hojas-de-estilo/FormMasters.css";
+import "../assets/hojas-de-estilo/FormMasters.css";
 import { Formik} from 'formik';
 import { Card, CardContent, TextField } from "@material-ui/core";
 import { ClassNames } from '@emotion/react';
-
 
 const FormMasters = () => {
     const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
@@ -132,6 +131,7 @@ const FormMasters = () => {
                       form="formulario" 
                       value={values.asistentes}
                       onChange={handleChange}
+                      
                       onBlur={handleBlur}
                       >
                       {touched.asistentes && errors.asistentes && <div className="error">{errors.asistentes}</div>}
@@ -150,7 +150,6 @@ const FormMasters = () => {
                     ref={captcha}
                     sitekey="6Ldi5ewhAAAAAOCHNPwoOpqWhm8vYFr7UpDezrTP"
                     onChange={onChange}
-                    theme="dark"
                   />
                   </div>
                   {captchaValido === false && <div className="error-captcha">Por favor acepta el captcha</div>}

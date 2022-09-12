@@ -1,10 +1,11 @@
 import React from 'react';
-import gatoFormulario from '../media/gatoFormulario.png';
+import gatoFormulario from '../assets/img/gatoFormulario.png';
 import FormMasters from './FormMasters';
+import '../assets/hojas-de-estilo/FormImagen.css';
 
 function FormImagen() {
     return (
-      <div className="App">
+      <div className="FormF">
             <img src={gatoFormulario} alt="gato" />
             <FormMasters />
       </div>
