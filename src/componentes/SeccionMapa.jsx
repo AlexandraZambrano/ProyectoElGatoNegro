@@ -1,6 +1,6 @@
 import Logo from '../media/Logo.png';
 import Maps from './Maps';
-import '../hojas-de-estilo/SeccionMapa.css';
+import '../hojas-de-estilo/SeccionMapa.css'
 
 
 function SeccionMapa() {
@@ -16,8 +16,3 @@ function SeccionMapa() {
 }
 
 export default SeccionMapa;
-
-
-
-
-

@@ -1,4 +1,4 @@
-.LogoMapa {
+.LogoMapa{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -15,6 +15,3 @@ img{
     display: flex;
     justify-content: center;
 }
-
-
- 
