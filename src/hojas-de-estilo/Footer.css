@@ -1,0 +1,40 @@
+.footer {
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-image: linear-gradient(to left, #A51E9F 51%, #D80061 100%);
+    color: white;
+    grid-template-areas:
+        "listen-online follow-me social-network";
+}
+
+.footer .listen-online {
+    grid-template-areas: listen-online;
+    display: flex;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer .listen-online .fa-solid {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.footer .follow-me {
+    grid-template-areas: follow-me;
+    text-align: center;
+}
+
+.footer .social-network {
+    grid-template-areas: social-network;
+    font-size: 1.5em;
+}
+
+.footer .social-network .fa-brands {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.footer .social-network .fa-brands:hover {
+    color: #ff67ed;
+}

@@ -1,0 +1,22 @@
+.btn {
+  font-size: 20px;
+  background-image: linear-gradient(to right, #A51E9F 51%, #D80061 100%);
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to left, #A51E9F 51%, #D80061 100%);
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+
+
+  .btn {
+    font-size: 15px;
+  }
+}
