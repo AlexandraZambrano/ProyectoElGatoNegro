@@ -1,16 +1,39 @@
 .btn {
-  font-size: 20px;
-  background-image: linear-gradient(to right, #A51E9F 51%, #D80061 100%);
-  color: white;
-  padding: 10px 30px;
-  border: 1px solid #ffffff;
-  border-radius: 30px;
-  margin-top: 10px;
+	background: #eb94d0;
+
+	/* Crear degradados */
+	background-image: -webkit-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -moz-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -ms-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -o-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: linear-gradient(to right, #f701a9, #bd05eb);
+	/* Dar bordes curvados a btn */
+	
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border: none;
+	border-radius: 15px;
+	-webkit-box-shadow: 6px 5px 24px #666666;
+	-moz-box-shadow: 6px 5px 24px #666666;
+	box-shadow: 6px 5px 24px #666666;
+	font-family: Arial;
+	color: #fafafa;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px;
+	text-decoration: none;
+	margin-top: 20px;
+	
 }
 
 .btn:hover {
-  background-image: linear-gradient(to left, #A51E9F 51%, #D80061 100%);
-  color: #ffffff;
+	background: #2079b0;
+	background-image: -webkit-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -moz-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -ms-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -o-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: linear-gradient(to right, #bd05eb, #f701a9);
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {
