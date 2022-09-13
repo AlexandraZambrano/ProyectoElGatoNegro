@@ -1,17 +1,18 @@
-/*/import { render, screen } from '@testing-library/react';
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
-describe('Componente FormMasters', () => {
+describe('Componente App', () => {
 
-// Prueba en la que busca un texto que no está
-test('renders learn react link', () => {
-  // Arrange
-  render(<CookieConsent />);
-  
-  // Act ... Nothing
+  // Pruebas de que los títulos se muestran en la página
+  test('Prueba título: Pociones Populares', () => {
+    render(<App />);
+    const elementoPrueba = screen.getByText('Pociones Populares');
+    expect(elementoPrueba).toBeInTheDocument();
+  });
+  test('Prueba título: Cocteles', () => {
+    render(<App />);
+    const elementoPrueba = screen.getByText('Cocteles');
+    expect(elementoPrueba).toBeInTheDocument();
+  });
 
-  // Assert
-  const elementoPrueba = screen.getByText('Este sitio web utiliza cookies para mejorar la experiencia de usuario.');
-  expect(elementoPrueba).toBeInTheDocument();
-});//end test
+});
