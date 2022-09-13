@@ -5,6 +5,7 @@ import Galeria from './componentes/Galeria'
 import Card from './componentes/Card';
 import Popular from './componentes/Popular';
 import FormImagen from './componentes/FormImagen';
+import SeccionMapa from './componentes/SeccionMapa';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Card />
     <Galeria />
     <FormImagen />
+    <SeccionMapa />
     </div>
   );
 }
