@@ -29,7 +29,7 @@
             "descripcion": "(Bebida por la que Van Gogh se cortó la oreja)",
             "ingredientes": "Contiene: Ajenjo, hinojo y anís..  ",
             "precio": "Precio: 10 €",
-            "imagen": "4.png"      
+            "imagen": "10.png"      
     },
     {
         "id": "5",
@@ -78,7 +78,7 @@
             "descripcion": "Convierte el amor en obsesión",
             "ingredientes": "Contiene:  Té de hojas del libro prohibido, Nacar, espumante, y lavanda.",
             "precio": "Precio 13€",
-            "imagen": "10.png"    
+            "imagen": "4.png"    
     },
     {
         "id": "11",
