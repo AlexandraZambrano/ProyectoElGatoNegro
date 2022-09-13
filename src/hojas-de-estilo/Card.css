@@ -77,5 +77,11 @@
 		height: 184px;
 	}
 
+	.atras p{
+		align-items: center;
+		padding: 10px;
+		font-size: 12px;
+	}
+
 
 }

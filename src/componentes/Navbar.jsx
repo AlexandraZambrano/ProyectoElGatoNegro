@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../media/logo-horizontal.png';
-import '../hojas-de-estilo/Navbar.css'
+import '../hojas-de-estilo/Navbar.css';
 
 const Navbar = () => {
 
@@ -25,6 +25,7 @@ const Navbar = () => {
     const closeMenu = () => setClick(false)
 
     return (
+ 
         <div className={color ? 'header header-bg' : 'header'}>
             <nav className='navbar'>
                 <a href='/' className='logo'>
@@ -37,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Carta</a>
+                      <a href='/' onClick={closeMenu}>Carta</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about' onClick={closeMenu}>Instalaciones</a>
@@ -51,6 +52,7 @@ const Navbar = () => {
                 </ul>
             </nav>
         </div>
+
     )
 }
 
