@@ -58,4 +58,11 @@
         align-items: center;
         justify-content: space-around;
     }
+
+    .social-ntrk {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        flex-direction: column;
+    }
 }

@@ -8,18 +8,17 @@ import FormImagen from './componentes/FormImagen';
 import SeccionMapa from './componentes/SeccionMapa';
 //import Hero from './componentes/Hero';
 import Footer from './componentes/Footer';
-import video from './componentes/Video';
+import Video from './componentes/Video';
 
 
 function App() {
   return (
     <div className="App">
-      <div className='Hero'>
-        <video />
-      </div>
+        <Video />
       <div className='tragos'>
         <Navbar />
       </div>
+      <div className='title'><h2>Pociones Populares</h2></div>
       <Popular />
       <FormImagen />
       <div className='title'><h2>Cocteles</h2></div>
