@@ -9,11 +9,13 @@ import SeccionMapa from './componentes/SeccionMapa';
 //import Hero from './componentes/Hero';
 import Footer from './componentes/Footer';
 import Video from './componentes/Video';
+import CookiesWeb from './componentes/CookiesWeb';
 
 
 function App() {
   return (
     <div className="App">
+        <CookiesWeb />
         <Video />
       <div className='tragos'>
         <Navbar />
