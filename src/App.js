@@ -3,6 +3,8 @@ import Navbar from './componentes/Navbar';
 import Galeria from './componentes/Galeria'
 import Card from './componentes/Card';
 import Popular from './componentes/Popular';
+import FormImagen from './componentes/FormImagen';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
     <Popular />
     <Card />
     <Galeria />
+    <FormImagen />
     </div>
   );
 }
