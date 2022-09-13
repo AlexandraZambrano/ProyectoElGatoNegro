@@ -47,7 +47,7 @@
     text-align: center;
     color: white;
     transform: perspective(600px) rotateY(180deg);
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     overflow: auto;
 	display: flex;
 	justify-content: center;
