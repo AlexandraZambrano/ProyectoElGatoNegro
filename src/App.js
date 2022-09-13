@@ -1,10 +1,11 @@
 import './App.css';
-import Maps from './componentes/Maps';
+import SeccionMapa from './componentes/SeccionMapa';
 
 function App() {
   return (
     <div className="App">
-      <Maps />
+      <SeccionMapa />
+
       
     </div>
   );
