@@ -6,15 +6,16 @@ import Card from './componentes/Card';
 import Popular from './componentes/Popular';
 import FormImagen from './componentes/FormImagen';
 import SeccionMapa from './componentes/SeccionMapa';
-import Hero from './componentes/Hero';
+//import Hero from './componentes/Hero';
 import Footer from './componentes/Footer';
+import video from './componentes/Video';
 
 
 function App() {
   return (
     <div className="App">
       <div className='Hero'>
-        <Hero />
+        <video />
       </div>
       <div className='tragos'>
         <Navbar />
