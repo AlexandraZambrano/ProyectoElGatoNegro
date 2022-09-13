@@ -49,6 +49,9 @@
     transform: perspective(600px) rotateY(180deg);
     -webkit-backface-visibility: hidden;
     overflow: auto;
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
 }
 
 .atras p{

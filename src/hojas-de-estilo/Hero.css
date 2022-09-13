@@ -56,4 +56,9 @@
         grid-column: 5 / 7;
         grid-row: 7;
     }
+
+    .hero {
+        height: 83vh;
+        margin-top: 74px;
+    }
 }

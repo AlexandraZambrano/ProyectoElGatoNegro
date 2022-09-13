@@ -14,6 +14,7 @@
     "formik": "^2.2.9",
     "material-ui-formik-components": "^0.7.3",
     "react": "^18.2.0",
+    "react-cookie-consent": "^8.0.1",
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^2.1.0",

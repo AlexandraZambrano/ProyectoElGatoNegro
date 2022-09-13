@@ -1,5 +1,6 @@
 .footer {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     height: 80px;
     align-items: center;
     background-image: linear-gradient(to left, #A51E9F 51%, #D80061 100%);
@@ -11,9 +12,14 @@
 .footer .listen-online {
     grid-template-areas: listen-online;
     display: flex;
-    padding: 20px;
     color: #ffffff;
 }
+
+.listen-online{
+    margin-left: 20px;
+}
+
+
 
 .footer .listen-online .fa-solid {
     font-size: 1.5em;
@@ -37,4 +43,19 @@
 
 .footer .social-network .fa-brands:hover {
     color: #ff67ed;
+}
+
+.social-ntrk{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1278px) {
+    .footer {
+        height: 133px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }

@@ -44,7 +44,7 @@
             "nombre": "Elixir de la risa",
             "descripcion": "No pararás de reir",
             "ingredientes": "Vodka Ketel One, cereza Luxardo Sangue Morlacco, jugo de limón, espumante milagroso de Ms Better. Globo rosa detonado",
-            "precio": "11€",
+            "precio": "Precio 11€",
             "imagen": "6.png"    
     },
 
@@ -93,7 +93,7 @@
             "nombre": "Extracto de engaño",
             "descripcion": "Peligroso si lo tomas con tu pareja",
             "ingredientes": "Licor 7 raíces, zumo de limón, granadina y una rama de cicuta ",
-            "precio": "Precio",
+            "precio": "Precio 15€",
             "imagen": "12.png"     
     }
 ]

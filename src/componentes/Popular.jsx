@@ -13,7 +13,7 @@ import Cards from '../json/populares.json';
 							<div className="tarjeta" key={card.id}>
 								<h3 className="nombre"><strong>{card.nombre}</strong></h3>
 								
-								<div className='layer'></div>
+								
 								<img src={(`${process.env.PUBLIC_URL}../imagenes/cocteles-cuadro/${card.imagen}`)}
 									className='frontal' 
 									alt=""/>	

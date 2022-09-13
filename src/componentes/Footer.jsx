@@ -10,6 +10,7 @@ function Footer(props) {
                     elgatonegro@restaurantes.com
                 </strong>
             </div>
+            <div className="social-ntrk">
             <div className="follow-me">
                 <h2>Síguenos</h2>
             </div>
@@ -17,6 +18,7 @@ function Footer(props) {
                 <i className="fa-brands fa-facebook"></i>
                 <i className="fa-brands fa-twitter"></i>
                 <i className="fa-brands fa-instagram"></i>
+            </div>
             </div>
         </div>
     );

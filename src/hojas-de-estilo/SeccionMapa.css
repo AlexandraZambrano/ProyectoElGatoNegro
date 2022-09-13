@@ -15,3 +15,20 @@ img{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:940px) {
+    .mapa {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .LogoMapa {
+        flex-direction: column-reverse;
+    }
+
+    img {
+        width: 40%;
+        margin-top: 43px;
+    }    
+}

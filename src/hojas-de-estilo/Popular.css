@@ -24,20 +24,10 @@
     border: 5px solid #E1439A;
 }
 
-.layer{
-	background-color: #A51E9F;
-    width: 360px;
-    opacity: 29%;
-    visibility: 20%;
-    height: 355px;
-    position: absolute;
-    border-radius: 100%;
-    z-index: 100;
-}
-
 .tarjeta > h3 {
   position: absolute;
-  top: 50%;
+  text-align: center;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -40%);
   color: #d7ff00;
@@ -52,14 +42,14 @@
 }
 
 @media screen and (max-width: 1278px) {
-	
+
 	.populares {
 		width: 100%;
-		height: 750px;
+		height: 135%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		align-items: center;
+		position: absolute;
 		justify-content: center;
 		align-content: flex-start;
 	}
@@ -73,17 +63,6 @@
 	.tarjeta > h3 {
 		font-size: 15px;
 		text-align: center;
-	}
-
-	.layer {
-		background-color: #A51E9F;
-		width: 85%;
-		opacity: 36%;
-		visibility: 20%;
-		height: 97%;
-		position: absolute;
-		border-radius: 100%;
-		z-index: 100;
 	}
 
 }
