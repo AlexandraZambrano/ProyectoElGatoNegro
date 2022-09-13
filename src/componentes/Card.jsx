@@ -6,6 +6,7 @@ import Cards from '../json/data.json';
  function Card() {
 
     return (
+		<div className='container-cards'>
 	    <div className="tarjeta3d">
 			{
 				 Cards.map(card=>{
@@ -26,6 +27,7 @@ import Cards from '../json/data.json';
 					)
 				})
 			}
+		</div>
 		</div>
     ); 
 }

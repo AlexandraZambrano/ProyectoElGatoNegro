@@ -36,17 +36,43 @@
 .fig .frontal{
 	display: block;
 }
-.fig .atras{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	background-color:#d1b8fc  ;
-	font-size: 18px;
-	text-align: center;
-	color: magenta;
-	transform: perspective(600px) rotateY(180deg);
-	-webkit-backface-visibility: hidden;
-	overflow: auto;
-    
+
+.fig .atras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: linear-gradient(to bottom, #8444F6 51%, #09C359 100%);
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    transform: perspective(600px) rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    overflow: auto;
+}
+
+.atras p{
+	align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1278px) {
+
+	.tarjeta3d {
+		width: auto;
+		padding: 0;
+		display: flex;
+		overflow: scroll;
+		scroll-behavior: smooth;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+
+	.fig {
+		width: 184px;
+		height: 184px;
+	}
+
+
 }
