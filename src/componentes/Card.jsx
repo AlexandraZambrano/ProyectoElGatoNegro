@@ -13,7 +13,7 @@ import Cards from '../json/data.json';
 					return(
 							<div className="tar" >
 								<figure className='fig' key={card.id}>
-								<img src={(`${process.env.PUBLIC_URL}../imagenes/${card.imagen}`)}
+								<img src={(`${process.env.PUBLIC_URL}../imagenes/cocteles-cuadro/${card.imagen}`)}
 									className='frontal' 
 									alt=""/>
 									<figcaption className="atras" > 
