@@ -1,22 +1,13 @@
 import React from 'react'
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
-<<<<<<< HEAD
-
-function MyComponent() {
-=======
 function MyComponent() {   //Aquí fijaremos un un alto y un ancho para nuestro mapa
->>>>>>> origin/christinap
   const containerStyle = {
   width: '500px',
   height: '500px'
 };
 
-<<<<<<< HEAD
-const center = {
-=======
 const center = {    //Estas coordenadas son el centro sobre el cual se va a situar el mapa al renderizarse por primera vez.
->>>>>>> origin/christinap
   lat: 40.55742746590223, 
   lng: -3.660167806103882
 };
