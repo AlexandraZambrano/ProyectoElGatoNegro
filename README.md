@@ -38,3 +38,4 @@ Y disfruta
 ## Equipo de diseño y desarollo
 
 ![](./src/media/nosotras.jpg)
+
