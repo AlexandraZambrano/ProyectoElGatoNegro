@@ -8,7 +8,6 @@ import { ClassNames } from '@emotion/react';
 const FormMasters = () => {
     const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
     const [captchaValido, cambiarCaptchaValido] = useState(null);
-    //const [usuarioValido, cambiarUsuarioValido] = useState(false);
 
     const captcha = useRef(null);
 
@@ -61,15 +60,17 @@ const FormMasters = () => {
             //Verificación del Captcha
             if(captcha.current.getValue()){
               console.log('El usuario no es un robot');
-              //cambiarUsuarioValido(true);
               cambiarCaptchaValido(true);
-              console.log(valores);
               resetForm();
-              console.log('Formulario Enviado');
               cambiarFormularioEnviado(true);
+              alert(
+                `El formulario ha sido enviado:\nNombre: ${valores.nombre}\nTeléfono: ${
+                  valores.telefono}\nAsistentes: ${valores.asistentes
+                  }\nFecha: ${valores.fecha}`
+              );
             } else {
               console.log('Por favor acepta el captcha');
-              //cambiarUsuarioValido(false);
+              cambiarFormularioEnviado(false);
               cambiarCaptchaValido(false);
             }
           }}

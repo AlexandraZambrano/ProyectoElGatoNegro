@@ -141,9 +141,11 @@ textField {
 }
 
 .exito {
-	color: green;
+	color: rgb(47, 160, 9);
 	margin-top: 20px;
 	text-align: center;
+	font-weight: bolder;
+	font-size: medium;
 }
 
 label .nombre, .telefono, .fecha {
