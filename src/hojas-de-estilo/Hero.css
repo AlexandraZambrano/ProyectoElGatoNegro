@@ -39,3 +39,21 @@
     grid-column: 5 / 7;
     grid-row: 5;
 }
+
+@media only screen and (max-width: 700px) {
+
+
+    .hero .info-content {
+        grid-column: 2 / 10;
+        grid-row: 2 / 8;
+    }
+
+    .hero h1 {
+        font-size: 3.5em;
+    }
+
+    .contenedor-boton {
+        grid-column: 5 / 7;
+        grid-row: 7;
+    }
+}
