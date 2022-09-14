@@ -26,7 +26,7 @@ Ejecutalo con:
 Y disfruta 	
 :tada:
 
-## Herramintas utilizadas
+## Herramientas utilizadas
 
 - HTML    
 - CSS
