@@ -89,7 +89,7 @@ const FormMasters = () => {
                       type="text" 
                       id="nombre" 
                       name="nombre" 
-                      placeholder="Fenix, Bruja, Mago" 
+                      placeholder="Fenix, Duende, Pixie" 
                       value={values.nombre}
                       onChange={handleChange}
                       onBlur={handleBlur}

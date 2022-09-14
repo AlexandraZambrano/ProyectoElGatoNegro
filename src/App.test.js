@@ -1,9 +1,10 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
+import { ReactDOM } from 'react-dom';
 import App from './App';
 
-describe('Componente App', () => {
 
-  // Pruebas de que los títulos se muestran en la página
+describe('Test for App', () => {
+  // Pruebas de que los títulos se muestran en la página y que el componente se renderiza
   test('Prueba título: Pociones Populares', () => {
     render(<App />);
     const elementoPrueba = screen.getByText('Pociones Populares');
@@ -15,4 +16,4 @@ describe('Componente App', () => {
     expect(elementoPrueba).toBeInTheDocument();
   });
 
-});
+})

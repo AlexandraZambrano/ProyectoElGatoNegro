@@ -1,11 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import FormImagen from '../componentes/FormImagen';
+import SeccionMapa from '../componentes/SeccionMapa';
 
-describe('Componente FormImagen', () => {
+describe('Componente SeccionMapa', () => {
   //Prueba que verifica si el componente se renderiza por textos
   test('se renderiza', () => {
-    render(<FormImagen />);
-    const compImagen = screen.getByAltText("gato");
+    render(<SeccionMapa/>);
+    const compImagen = screen.getByAltText("Logo");
     expect(compImagen).toBeInTheDocument();
   });
 });

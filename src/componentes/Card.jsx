@@ -15,7 +15,7 @@ import Cards from '../json/data.json';
 								<figure className='fig' key={card.id}>
 								<img src={(`${process.env.PUBLIC_URL}../imagenes/cocteles-cuadro/${card.imagen}`)}
 									className='frontal' 
-									alt=""/>
+									alt="bebida"/>
 									<figcaption className="atras" > 
 												<h3><strong>{card.nombre}</strong></h3>
 												<p>{card.descripcion}</p>
