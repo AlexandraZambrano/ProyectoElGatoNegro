@@ -9,22 +9,22 @@
 ______ 
 ### `npm i @material-ui/core --force`
 ### `npm i @material-ui/lab --force`
-### `npm install react-icons` 
-### `npm i @emotion/react`
-### `npm i@emotion/styled`
-### `npm install formik --save` 
+### `npm install react-icons --force` 
+### `npm i @emotion/react --force`
+### `npm i@emotion/styled --force`
+### `npm install formik --force` 
 ### `npm i material-ui-formik-components --force`
-### `npm i @react-google-maps/api`
-### `npm install react-cookie-consent`
+### `npm i @react-google-maps/api --force`
+### `npm install react-cookie-consent --force`
 
-Ejecutalo con:
+Ejecútalo con:
 ### `nmp install`
 ### `npm start`
 
 Y disfruta 	
 :tada:
 
-## Herramintas utilizadas
+## Herramientas utilizadas
 
 - HTML    
 - CSS
