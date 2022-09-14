@@ -10,12 +10,12 @@ ______
 ### `npm i @material-ui/core --force`
 ### `npm i @material-ui/lab --force`
 ### `npm install react-icons` 
-### `npm install react-datepicker --force`
+### `npm i @emotion/react`
+### `npm i@emotion/styled`
 ### `npm install formik --save` 
 ### `npm i material-ui-formik-components --force`
 ### `npm i @react-google-maps/api`
-### `npm uninstall yup --force`
-### `npm i yup@0.28.5 --force`
+### `npm install react-cookie-consent`
 
 Ejecútalo con:
 ### `nmp install`
