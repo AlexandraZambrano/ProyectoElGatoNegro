@@ -17,14 +17,14 @@ ______
 ### `npm uninstall yup --force`
 ### `npm i yup@0.28.5 --force`
 
-Ejecutalo con:
+Ejecútalo con:
 ### `nmp install`
 ### `npm start`
 
 Y disfruta 	
 :tada:
 
-## Herramintas utilizadas
+## Herramientas utilizadas
 
 - HTML    
 - CSS
