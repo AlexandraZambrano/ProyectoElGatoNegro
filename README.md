@@ -1,9 +1,7 @@
 ![](./src/media/logo-horizontal.png)
 
-
-![](https://giphy.com/gifs/6I32ZksbUrVTfNU2U0)
-
 # Aplicación de una página responsive que cumple con la ley de Cookies y esta SEO optimizada.
+[Demo](https://youtu.be/w5x0507vUlo)
 
 ![](./src/media/paginaEntera.png)
 
