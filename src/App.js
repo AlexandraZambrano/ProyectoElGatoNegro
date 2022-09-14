@@ -6,7 +6,6 @@ import Card from './componentes/Card';
 import Popular from './componentes/Popular';
 import FormImagen from './componentes/FormImagen';
 import SeccionMapa from './componentes/SeccionMapa';
-//import Hero from './componentes/Hero';
 import Footer from './componentes/Footer';
 import Video from './componentes/Video';
 import CookiesWeb from './componentes/CookiesWeb';
