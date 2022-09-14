@@ -17,9 +17,10 @@ function CookiesWeb() {
           color: "purple",
           fontWeight: "bolder",
           borderRadius: "5px",
+          marginBottom: "10px"
         }}
       >
-      Este sitio web utiliza cookies para mejorar la experiencia de usuario.
+      Aceptas que en 'El Gato Negro' trataremos tus datos para personalizar el servicio ofrecido, notificarte comunicaciones internas, noticias y ofertas de nuestros servicios via email, sms, whatsapp o telefónicamente, así como realizar analíticas de tráfico y datos de uso y lo establecido en la politica de privacidad. Puedes revocar el consentimiento, ejercer tus derechos de acceso, rectificación, cancelación, oposición, limitación del tratamiento, portabilidad y supresión escribiéndonos a privacidad@elgatonegro.es 
       </CookieConsent>
     </div>
   );
