@@ -26,7 +26,7 @@
     {
         "id": "4",
             "nombre": " Absenta",
-            "descripcion": "(Bebida por la que Van Gogh se cortó la oreja)",
+            "descripcion": "Bebida por la que Van Gogh se cortó la oreja",
             "ingredientes": "Contiene: Ajenjo, hinojo y anís..  ",
             "precio": "Precio: 10 €",
             "imagen": "10.png"      
@@ -59,7 +59,7 @@
     {
         "id": "8",
             "nombre": "Pócima de invisibilidad",
-            "descripcion": "(Pasa desapercibido",
+            "descripcion": "Pasa desapercibido",
             "ingredientes": "Tequila, crema de violeta y polvo de diente de león",
             "precio": "Precio 9€",
             "imagen": "8.png"     
