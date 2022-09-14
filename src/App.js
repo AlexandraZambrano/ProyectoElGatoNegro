@@ -1,4 +1,11 @@
 import React from 'react'
+<<<<<<< HEAD
+
+function App() {
+  return (
+    <div>App</div>
+  )
+=======
 import './App.css';
 import Navbar from './componentes/Navbar';
 import Galeria from './componentes/Galeria'
@@ -31,6 +38,7 @@ function App() {
       </div>
     </div>
   );
+>>>>>>> d03b983aa3b4d2506756bbca58cc51a39208095a
 }
 
-export default App;
+export default App
