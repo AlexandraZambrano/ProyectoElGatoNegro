@@ -12,7 +12,7 @@ ______
 ### `npm install react-icons --force` 
 ### `npm i @emotion/react --force`
 ### `npm i@emotion/styled --force`
-### `npm install formik ----force` 
+### `npm install formik --force` 
 ### `npm i material-ui-formik-components --force`
 ### `npm i @react-google-maps/api --force`
 ### `npm install react-cookie-consent --force`
