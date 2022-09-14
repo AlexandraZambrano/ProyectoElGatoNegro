@@ -15,7 +15,7 @@ import Cards from '../json/populares.json';
 								
 								<img src={(`${process.env.PUBLIC_URL}../imagenes/cocteles-cuadro/${card.imagen}`)}
 									className='frontal' 
-									alt=""/>
+									alt="coctelCuadro"/>
 									<h3 className="nombre"><strong>{card.nombre}</strong></h3>					
 							</div>						
 					)
