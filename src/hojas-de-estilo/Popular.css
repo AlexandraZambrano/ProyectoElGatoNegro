@@ -1,0 +1,69 @@
+.populares{
+	width:800px;
+	height: 750px;
+	padding-top: 10px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items:  center;
+}
+
+.tarjeta{
+	padding:15px; 
+	width:350px;
+	height: 350px;
+	padding-top: 0;
+	position: relative;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 5px solid #E1439A;
+}
+
+.tarjeta > h3 {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: #d7ff00;
+  text-shadow: 0px 0px 7px #2603fb;
+}
+.tarjeta>h3:hover {
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    transition-duration: 0.3s;
+    text-shadow: 0px 0px 4px #d7ff00;
+}
+
+@media screen and (max-width: 1278px) {
+
+	.populares {
+		width: 100%;
+		height: 135%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		position: absolute;
+		justify-content: center;
+		align-content: flex-start;
+	}
+
+	.tarjeta {
+		width: 40%;
+		height: 20%;
+		position: relative;
+	}
+
+	.tarjeta > h3 {
+		font-size: 15px;
+		text-align: center;
+	}
+
+}
+

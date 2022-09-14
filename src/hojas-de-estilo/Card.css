@@ -1,0 +1,87 @@
+.tarjeta3d{
+	max-width: 1200px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;	 
+	font-family: 'Century-gothic', serif; 
+}
+.tar{
+	margin:5px; 
+}
+
+.tar:hover .fig {
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	-ms-transform: perspective(600px) rotateY(180deg);
+	-o-transform: perspective(600px) rotateY(180deg);
+	transform: perspective(600px) rotateY(180deg);
+}
+.fig{
+	width:350px;
+	height: 350px;
+	margin:0;
+	position: relative;
+	transition: all ease .5s;
+	transform-style: preserve-3d;
+	transform: perspective(600px) rotateY(0deg);
+}
+.fig .frontal,
+.fig .atras{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transition: all ease .5s;
+}
+.fig .frontal{
+	display: block;
+}
+
+.fig .atras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: linear-gradient(to bottom, #8444F6 51%, #09C359 100%);
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+}
+
+.atras p{
+	align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1278px) {
+
+	.tarjeta3d {
+		width: auto;
+		padding: 0;
+		display: flex;
+		overflow: scroll;
+		scroll-behavior: smooth;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+
+	.fig {
+		width: 184px;
+		height: 184px;
+	}
+
+	.atras p{
+		align-items: center;
+		padding: 10px;
+		font-size: 12px;
+	}
+
+
+}

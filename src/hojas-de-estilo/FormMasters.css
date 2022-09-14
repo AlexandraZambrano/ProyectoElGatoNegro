@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: 'Roboto', sans-serif;
+}
+.MuiCard-root {
+	background: #6006FF!important;
+	padding: 20px;
+} 
+
+.contenedor{
+	background-color: #6006FF;
+	border-radius: 10px;
+	padding: 0%;
+}
+
+contenedor {
+	min-height: 100vh;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+textField {
+	margin-bottom: 40px;
+}
+
+.contenedor {
+	margin: 40px auto;
+	max-width: 500px;
+}
+
+.contenedor h1 {
+	font-size: 36px;
+	margin-bottom: 5px;
+	text-align: center;
+	/*color: #8709a6;*/
+	color: #fff
+}
+
+.formulario {
+	padding: 30px;
+	border-radius: 5px;
+	/* background: rgb(129, 15, 205); */
+	box-shadow:0 42px 80px rgba(0, 0, 0, 0.07);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+}
+
+.formulario input {
+	width: 400px;
+	display: block;
+	padding: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	/*border: 1px solid rgba(0,0,0,.2);*/
+	outline: none;
+	border-radius: 3px;
+	transition: .3s ease all;
+	color: #000;
+	
+
+}
+
+.etiquetaAsistentes {
+	text-align: left !important;
+	display: inline-block;
+}
+
+.formulario input:focus {
+	/*border: 1px solid #e44dff;*/
+}
+
+.formulario .recaptcha {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor-button {
+	text-align: center;
+}
+
+.formulario button {
+	background: #eb94d0;
+
+	/* Crear degradados */
+	background-image: -webkit-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -moz-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -ms-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: -o-linear-gradient(left, #f701a9, #bd05eb);
+	background-image: linear-gradient(to right, #f701a9, #bd05eb);
+	/* Dar bordes curvados a btn */
+	
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border: none;
+	border-radius: 15px;
+	-webkit-box-shadow: 6px 5px 24px #666666;
+	-moz-box-shadow: 6px 5px 24px #666666;
+	box-shadow: 6px 5px 24px #666666;
+	font-family: Arial;
+	color: #fafafa;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px;
+	text-decoration: none;
+	
+}
+
+.formulario button:hover {
+	background: #2079b0;
+	background-image: -webkit-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -moz-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -ms-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: -o-linear-gradient(left, #bd05eb, #f701a9);
+	background-image: linear-gradient(to right, #bd05eb, #f701a9);
+	text-decoration: none;
+}
+
+.error-captcha {
+	color: red;
+	font-size: small;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+.exito {
+	color: rgb(47, 160, 9);
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+label .nombre, .telefono, .fecha {
+	display: block;
+}
+
+label {
+	/*color: #8709a6;*/
+	color: #fff;
+	font-weight: bolder;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+	color: #eb05a2 !important;
+}
+
+.MuiInput-underline:after {
+	/*border-bottom: 2px solid #bd05eb !important;*/
+	border-bottom: 2px solid #eb05a2  !important;
+}
+
+.error {
+	text-align: left;
+	color: red;
+	font-size: small;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: -1px;
+	font-weight: bold;
+}
+
+
+select{
+	display: flex;
+	margin-top: 10px;
+	width: 90px;
+	padding: 6px;
+}
+
+@media screen and (max-width: 1278px) {
+	.formulario input {
+		width: auto;
+	}
+
+	.MuiCardContent-root:last-child {
+		width: 100%;
+		background-color: #6006FF;
+		padding: 0px 30px 24px 30px;
+	}
+
+	.contenedor {
+		margin: 40px auto;
+		display: block;
+		background-color: transparent;
+		margin: 40px auto;
+		display: block;
+	}
+
+	.MuiCard-root {
+		width: 100%;
+		margin-top: 200px;
+	}
+
+	.formulario {
+		padding: 30px;
+		margin-right: 8px;
+		width: 85%;
+	}
+}
+

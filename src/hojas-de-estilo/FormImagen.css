@@ -1,0 +1,22 @@
+.FormF{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 700px){
+
+    .FormF {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 292px;
+    }
+
+    .FormF img {
+        display: none;
+    }
+    
+}
