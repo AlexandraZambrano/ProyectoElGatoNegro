@@ -149,7 +149,7 @@ const FormMasters = () => {
                   <div className= "recaptcha">
                     <ReCAPTCHA
                     ref={captcha}
-                    sitekey="6Ldi5ewhAAAAAOCHNPwoOpqWhm8vYFr7UpDezrTP"
+                    sitekey="poner el key de google"
                     onChange={onChange}
                   />
                   </div>
