@@ -3,11 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-=======
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
->>>>>>> d03b983aa3b4d2506756bbca58cc51a39208095a
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
     "@react-google-maps/api": "^2.12.2",
@@ -15,15 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "formik": "^2.2.9",
-<<<<<<< HEAD
-    "material-ui-cookie-consent": "^0.1.0",
-    "react": "^18.2.0",
-    "react-cookie-consent": "^8.0.1",
-    "react-dom": "^18.2.0",
-    "react-google-recaptcha": "^2.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-=======
     "material-ui-formik-components": "^0.7.3",
     "react": "^18.2.0",
     "react-cookie-consent": "^8.0.1",
@@ -35,7 +23,6 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^0.28.5"
->>>>>>> d03b983aa3b4d2506756bbca58cc51a39208095a
   },
   "scripts": {
     "start": "react-scripts start",
