@@ -2,6 +2,7 @@ import React from 'react'
 import videogato from '../media/gatonegro.mp4'
 import '../hojas-de-estilo/video.css';
 import Boton from './Boton';
+import { Link } from 'react-router-dom';
 
 const video = () => {
   return (
@@ -14,8 +15,8 @@ const video = () => {
         <p>Una de las ciudades cosmopolita del mundo te ofrece adentrarte en la degustación mas aterradora de todos los
           tiempos, inspirada en pociones creadas por brujas que podian transformarse en gatos negros en la edad media.</p>
         <div className="contenedor-boton">
-          <Boton
-            texto='Reservar' />
+          <Link to={'/reserva'}><Boton
+            texto='Reservar' /></Link>
         </div>
       </div>
 

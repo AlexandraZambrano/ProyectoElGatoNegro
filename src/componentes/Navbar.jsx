@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../media/logo-horizontal.png';
 import '../hojas-de-estilo/Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -38,16 +39,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                      <a href='/' onClick={closeMenu}>Carta</a>
+                      <Link to={'/card'} onClick={closeMenu}>Carta</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>Instalaciones</a>
+                        <Link to={'/instalaciones'} onClick={closeMenu}>Instalaciones</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Reseñas</a>
+                        <Link to={'/reseñas'} onClick={closeMenu}>Reseñas</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Ubicación</a>
+                        <Link to={'/ubicacion'} onClick={closeMenu}>Ubicación</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to={'/reserva'} onClick={closeMenu}>Reserva</Link>
                     </li>
                 </ul>
             </nav>

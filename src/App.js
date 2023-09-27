@@ -9,27 +9,23 @@ import SeccionMapa from './componentes/SeccionMapa';
 import Footer from './componentes/Footer';
 import Video from './componentes/Video';
 import CookiesWeb from './componentes/CookiesWeb';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './componentes/Home';
 
 
 function App() {
   return (
-    <div className="App">
-        <CookiesWeb />
-        <Video />
-      <div className='tragos'>
-        <Navbar />
-      </div>
-      <div className='title'><h2>Pociones Populares</h2></div>
-      <Popular />
-      <FormImagen />
-      <div className='title'><h2>Cocteles</h2></div>
-      <Card />
-      <Galeria />
-      <SeccionMapa />
-    <div className='Footer'>
-        <Footer />
-      </div>
-    </div>
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path="/card" element={<Card />} />
+        <Route path="/instalaciones" element={<Galeria />}/>
+        <Route path="/reseñas" element={<Galeria />}/>
+        <Route path="/ubicacion" element={<SeccionMapa />}/>
+        <Route path="/reserva" element={<FormImagen />}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
